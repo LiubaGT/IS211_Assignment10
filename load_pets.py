@@ -2,7 +2,7 @@ import sqlite3
 
 
 def insert_data():
-    sqlite_file = '/Users/yuripetrovsky/Desktop/study/IS211/IS211_Assignment10/pets'
+    sqlite_file = '/Users/liubavelichko/Desktop/study/IS211/IS211_Assignment10/pets'
     conn = sqlite3.connect(sqlite_file)
     c = conn.cursor()
     list = [{"Person": (1, "James", "Smith", 41)},
